@@ -34,7 +34,7 @@ with open(path.join(here, 'README.md'), encoding='utf-8') as f:
 
 setup(
     name='adafruit-ampy',
-
+    version='1.0.0',
     use_scm_version=True,
     setup_requires=['setuptools_scm'],
 
