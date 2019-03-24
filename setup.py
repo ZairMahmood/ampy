@@ -71,11 +71,5 @@ setup(
     # What does your project relate to?
     keywords='adafruit ampy hardware micropython circuitpython',
 
-    packages=find_packages(),
-
-    entry_points={
-        'console_scripts': [
-            'ampy=ampy.cli:cli',
-        ],
-    },
+    packages=find_packages()
 )
